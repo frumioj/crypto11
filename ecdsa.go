@@ -134,6 +134,10 @@ var wellKnownCurves = map[string]curveInfo{
 		mustMarshal(asn1.ObjectIdentifier{1, 3, 132, 0, 39}),
 		nil,
 	},
+	"256K": {
+		mustMarshal(asn1.ObjectIdentifier{1, 3, 132, 0, 10}),
+		P256K1(),
+	},	
 }
 
 func marshalEcParams(c elliptic.Curve) ([]byte, error) {
