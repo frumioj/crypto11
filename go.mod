@@ -1,4 +1,4 @@
-module github.com/ThalesIgnite/crypto11
+module github.com/frumioj/crypto11
 
 go 1.13
 
