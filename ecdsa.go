@@ -134,7 +134,7 @@ var wellKnownCurves = map[string]curveInfo{
 		mustMarshal(asn1.ObjectIdentifier{1, 3, 132, 0, 39}),
 		nil,
 	},
-	"256K": {
+	"P-256K1": {
 		mustMarshal(asn1.ObjectIdentifier{1, 3, 132, 0, 10}),
 		P256K1(),
 	},	
