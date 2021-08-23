@@ -43,6 +43,7 @@ var curves = []elliptic.Curve{
 	elliptic.P256(),
 	elliptic.P384(),
 	elliptic.P521(),
+	P256K1(),
 	// plus something with explicit parameters
 }
 
